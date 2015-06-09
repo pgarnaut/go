@@ -16,6 +16,6 @@ int Board::setSize(int n) {
 	return 0;
 }
 
-const uint8_t *Board::operator[](std::size_t rowIdx) {
+const uint8 *Board::operator[](std::size_t rowIdx) {
 	return &m_board[0] + (m_oneBased? rowIdx+1 : rowIdx) * m_size;
 }

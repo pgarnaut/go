@@ -74,13 +74,16 @@
     <ClCompile Include="src\Board.cpp" />
     <ClCompile Include="src\Engine.cpp" />
     <ClCompile Include="src\Go.cpp" />
+    <ClCompile Include="src\GTP.cpp" />
     <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Board.h" />
     <ClInclude Include="src\Engine.h" />
+    <ClInclude Include="src\GTP.h" />
     <ClInclude Include="src\Log.h" />
+    <ClInclude Include="src\types.h" />
     <ClInclude Include="src\Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
